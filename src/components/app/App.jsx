@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Searchbar from "";
 import Modal from "";
-import Button from "";
+import Button from "../Button/Button";
 import ImageGallery from "";
 import ImageGalleryItem from "";
 import MyLoader from "";
