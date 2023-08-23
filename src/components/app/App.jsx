@@ -1,12 +1,12 @@
 
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import Searchbar from "";
-import Modal from "";
+import Searchbar from "../Searchbar";
+import Modal from "../Modal";
 import Button from "../Button/Button";
-import ImageGallery from "";
-import ImageGalleryItem from "";
-import MyLoader from "";
+import ImageGallery from "../ImageGalery/ImageGalery";
+import ImageGalleryItem from "../ImageGalleryItem";
+import MyLoader from "../Loader";
 import { GalleryContainer,SearchbarContainer, ButtonContainer } from "./App.styled";
 
 const keyApi = "38957997-b8acc7a81f773178d46be80fd";
