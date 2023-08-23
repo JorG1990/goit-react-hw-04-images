@@ -20,7 +20,7 @@ function ImageGalery({ images, onImageClick }) {
   return (
     <ul className="gallery">
       { images && images.map((image) => (
-        <Li className="gallery-item" key={image,id}>
+        <Li className="gallery-item" key={image.id}>
           <ImageGalleyItem image={ image } onImageClick={ handleImageClick } />
         </Li>
       ))}
@@ -33,4 +33,4 @@ ImageGalery.propTypes = {
   onImageClick: PropTypes.func.isRequired,
 };
 
-expor default ImageGalery;
+export default ImageGalery;
