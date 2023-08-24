@@ -6,7 +6,7 @@ import Modal from "../Modal";
 import Button from "../Button/Button";
 import ImageGallery from "../ImageGalery/ImageGalery";
 import ImageGalleryItem from "../ImageGalleryItem/ImageGalleryItem";
-import MyLoader from "../Loader";
+import MyLoader from "../Loader/Loader";
 import { GalleryContainer,SearchbarContainer, ButtonContainer } from "./App.styled";
 
 const keyApi = "38957997-b8acc7a81f773178d46be80fd";
