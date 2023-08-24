@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import Searchbar from "../Searchbar";
+import Searchbar from "../Searchbar/Searchbar";
 import Modal from "../Modal";
 import Button from "../Button/Button";
 import ImageGallery from "../ImageGalery/ImageGalery";
