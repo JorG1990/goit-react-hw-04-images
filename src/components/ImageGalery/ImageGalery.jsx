@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
-import ImageGalleyItem from "../ImageGalery/ImageGallery";
+import ImageGalleyItem from "../ImageGalleryItem/ImageGalleryItem";
 import { Li } from "./ImageGallery.styled";
 
 function ImageGalery({ images, onImageClick }) {
