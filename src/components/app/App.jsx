@@ -5,7 +5,7 @@ import Searchbar from "../Searchbar";
 import Modal from "../Modal";
 import Button from "../Button/Button";
 import ImageGallery from "../ImageGalery/ImageGalery";
-import ImageGalleryItem from "../ImageGalleryItem";
+import ImageGalleryItem from "../ImageGalleryItem/ImageGalleryItem";
 import MyLoader from "../Loader";
 import { GalleryContainer,SearchbarContainer, ButtonContainer } from "./App.styled";
 
